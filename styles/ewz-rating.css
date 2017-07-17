@@ -1,0 +1,19 @@
+/*** Used for front and back ends ***/
+
+.ui-dialog ul.ewz_lpad{ padding-left: 50px; } 
+.ewz_alert { border: 1px solid red;  border-radius: 5px 5px 5px 5px;}
+.ewz_alert { position: absolute; padding: .2em;  background: #FFFFFF; box-sizing: content-box;}
+.ewz_alert .ui-dialog-content { position: relative; border: 0; padding: 15px;  overflow: auto; zoom: 1; font-weight: normal;}
+.ewz_alert .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0;  margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.ewz_alert .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+.ewz_alert .ui-dialog-buttonpane button { margin: .5em .4em .5em 0; cursor: pointer; }
+.ewz_alert .ui-dialog-titlebar { padding: .4em 1em; 
+                                 position: relative; 
+                                 background: #DDDDDD;
+                                 border: 1px solid #C0C0C0; 
+                                 border-radius: 5px 5px 5px 5px; 
+                                 font-weight: bold; 
+                                 font-size: 1.2em; 
+                                 text-align: center;
+                               }
+.ewz-no-close .ui-dialog-titlebar-close {  display: none; } 

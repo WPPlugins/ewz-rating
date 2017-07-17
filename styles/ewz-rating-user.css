@@ -1,0 +1,40 @@
+/*** For the ewz_rating shortcode display ***/
+
+body, html { height:100% }
+
+/* need to replace this with an icon */
+ .sortarrow { font-size: 1.2rem; font-weight: bold; } 
+ table.ewz_rating_table.sortable th{line-height: 1.2;}
+
+#ewz_jhelp p,ul,ol,li {  font-weight:normal; font-size: 13px;}
+#ewz_jhelp{ display: none; }
+.ewzleft{ padding-right: 10%;}
+.ewzrt{ padding-left: 10%}
+.ewz_bottomtext {  text-align: center; padding-top: 20px; font-weight: bold; line-height: 90px; }
+.ewz_chead button{ padding: 5px; margin-top: 5px;  border-radius: 5px 5px 5px 5px; }
+.ewz_admin_info{ border: 1px solid red; padding: 5px; margin-bottom: 15px; padding:15px;text-align:center;}
+.ewz_jdone{ text-align: center;  width: 50%; padding-right: 35px; }
+.ewz_rtable button:enabled{ border: 1px solid #FF0000;  border-radius: 5px 5px 5px 5px;}
+.ewz_rtable td { padding: 20px 10px 20px 10px;}
+.ewz_rtable tr.ewz_new td {  border-top: 1px solid #555555; border-bottom: 1px solid #555555; }
+.ewz_rtable tr.ewz_new {  border: 1px solid #555555; }
+.ewz_rtable {clear: both; }
+div.ewz_stored{ padding:  15px 5px 15px 5px; }
+div[class^="ewz_rating_page"]{ display: none; }
+table.ewz_chead td { text-align:center; border: 0px; border-color: rgba(0,0,0,0) }
+table.ewz_chead { padding: 15px;}
+
+.ewz_jstatus {
+               background: #F0F0F0;
+               color: #000000;
+               padding: 5px;  
+               margin: 5px; 
+               font-size: .8em;
+               border: 1px solid #FF0000;
+               box-shadow: 2px 2px #000000;  
+               border-radius: 5px 5px 5px 5px; 
+               display:inline-block; 
+               position: fixed; 
+               bottom: 0px;  left: 0px;  
+               z-index: 500;
+             }

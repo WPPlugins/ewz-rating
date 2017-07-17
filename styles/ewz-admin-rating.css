@@ -1,0 +1,105 @@
+/* Styling for EWZ-Rating Admin only, not EntryWizard or any front-end */
+
+/*** Scheme and Form Pages ***/
+html, body {position: relative}
+.ewz_30{ display: block; width: 30%;   margin-right: 25px; padding:5px; float: right; }
+.ewz_80{ display: block; width: 80%; padding-bottom: 25px; margin-left: 10px; }
+.ewz_95 { display: block; width: 90%; margin-left: auto; margin-right: auto; }
+.ewz_95l { display: block; width: 90%; margin-left: auto; }
+.ewz_95r { display: block; width: 90%; margin-right: auto; }
+.ewz_box { margin-bottom: 20px; }
+.ewz_data { background: #ffffff; padding: 15px; margin: 15px 5px 15px 5px; border: 1px solid #DFDFDF; border-radius: 5px 5px 5px 5px;}
+.ewz_ihelp { padding-right: 2px; }
+.ewzform .ui-widget { font-family: "Helvetica Neue","Trebuchet MS",Tahoma,Verdana,Arial,sans-serif; background: #fff; }
+.ewzform { font-size: 90%; }
+.inside .ewz_hndle{
+   /* background-image: url('../images/gray-grad.png'); */
+   background:-webkit-linear-gradient(   top, #FFFFFF, #EEEEEE);
+   background:   -moz-linear-gradient(    top, #FFFFFF, #EEEEEE);
+   background:    -ms-linear-gradient(    top, #FFFFFF, #EEEEEE);
+   background:     -o-linear-gradient(    top, #FFFFFF, #EEEEEE);
+   background:        linear-gradient(to bottom, #FFFFFF, #EEEEEE);
+    background-position: top left;
+    background-repeat: repeat-x;
+}
+
+.ewz_box h3{
+   background:-webkit-linear-gradient(   top, #F0F0F0, #CCCCCC);
+   background:   -moz-linear-gradient(   top, #F0F0F0, #CCCCCC);
+   background:    -ms-linear-gradient(   top, #F0F0F0, #CCCCCC);
+   background:     -o-linear-gradient(   top, #F0F0F0, #CCCCCC);
+   background:        linear-gradient(to bottom, #F0F0F0, #CCCCCC);
+    background-position: top left;
+    background-repeat: repeat-x;
+    margin: 0px;
+    padding: 8px 12px;
+}
+
+.ewz_td_r{ padding-left: 20px; }
+/*** Forms Page ***/
+.ewz_compact td{ padding: 2px; }
+.ewz_rating_padded > tbody > tr > td {  padding: 20px 10px 20px 10px !important;}
+.ewz_space50{ display:inline-block; width: 50px; }
+.ewz_status p { text-align: center; }
+.ewz_status {   background: #f5f5f5;  padding: 15px; margin: 15px; border-radius: 5px 5px 5px 5px; display:inline-block; }
+.ewz_tab{ margin-left: 3em; }
+.ewzform input[id$="field_header_"]{ width: 15em; }
+.ewzform input[id$="scheme_name_"]{ width: 25em; }
+input[id^="ewz_settings_max"]{ width: 6em; }
+table[id^="ewz_status_table"] td { padding: 10px; }
+
+
+/*** Schemes Page ***/
+#ewz_layout_fields div[id^="ewz_admin_rating"]{   padding: 0px;  margin: 2px;}
+#ewz_layout_fields h3{ padding: 2px;  margin: 2px;}
+#ewz_schemes .ewz_box{  padding: 2px;  margin: 2px; }
+.ewz_buttonrow td { padding-right: 10px; padding-left: 20px; padding-top: 5px;padding-bottom: 5px;}
+.ewz_buttonrow { padding: 15px; }
+.ewz_disabled{border: 1px dotted red; padding: 7px 2px 8px 2px; text-align: center; vertical-align:middle;}
+.ewz_field > tbody > tr > td { padding: 10px; vertical-align:middle; }
+.ewz_holder { display: block; width: 93%; margin-left: auto; margin-right: auto; }
+.ewz_info{ padding: 10px; margin: 0px; font-style: italic;  border: 1px solid #DFDFDF;}
+.ewz_inotes{ font-size: 90%; font-style: italic;}
+.ewz_leftpad{ padding-left:30px !important;}
+.ewz_sect_title{ font-weight: bold; }
+.ewz_shaded{ vertical-align:middle; background: #F5F5F5; border-color: #EEEEEE; }
+.ewz_subpost { margin-left: 40px; }
+.ewz_waitmessage{ text-align: center;  margin: auto; padding: 10px;font-size: 1.2em; font-weight: bold;}
+.ewzform input[id^="ewz_rform_title_ev"]{ width: 25em; }
+div[id^="ewz_ewz_box-scheme"]{ background: #E7E7E7; }
+div[id^="ewz_layout_fields"]{ height: 300px; overflow-y: scroll; }
+div[id^="ewz_restricts_f"]{ padding-bottom: 7px; }
+input[id$="__msg_"] { width: 30em; }
+input[id$="_field_header_"] { width: 9em; }
+input[id$="_label_"] {width: 9em; }
+input[id$="_value_"] { width: 5em; }
+input[id$="field_ident_"] { width: 9em; }
+table[id^="ewz_spr_col"]{ width: 100%; background: #f5f5f5; }
+table.ewz_control td{padding-top: 5px; }
+table.ewz_settings tbody tr td{ padding-right: 15px;}
+.ewz_orderbtn { float: right; }
+.ewz_field{
+            background: white;
+            border: 1px;
+            border-style: solid;
+            border-color:  #DFDFDF;
+            width: 100%;
+            margin: auto;
+}
+.ewz_warn{
+           font-weight: bold;
+           text-align: center;
+           vertical-align: top;
+           border: 1px dotted #BBBBBB;
+           padding: 15px;
+           float: right;
+           margin-right: 15px;
+         }
+
+
+
+
+
+
+
+
